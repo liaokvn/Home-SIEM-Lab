@@ -21,3 +21,5 @@ Core Components of the SIEM Lab Environment
 - Security Events & Raw Logs Viewer
 - SIEM Dashboards & Visualiations
 - Event Correlation & Detection Readiness 
+
+<img width="1619" height="1083" alt="Image" src="https://github.com/user-attachments/assets/a57eef94-d525-480c-86ba-93c16a05b7f0" />
