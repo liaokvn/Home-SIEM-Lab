@@ -11,4 +11,12 @@ The project emphasizes key blue team skills such as log ingestion pipelines, ale
 
 <img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/1add0aff-e7f5-4f09-8829-4e09e97ae9de" />
 
-
+Core Components of the SIEM Lab Environment 
+- ELastic Cloud Deployment (Kibana + Elasticsearch)
+- Kali Linux Virutal Machine
+- Elastic Agent (Endpoint Security Module)
+- Log Piplines with ECS Mapping
+- Data Quality Validation via Kibana
+- Security Events & Raw Logs Viewer
+- SIEM Dashboards & Visualiations
+- Event Correlation & Detection Readiness 
