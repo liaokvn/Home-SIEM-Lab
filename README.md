@@ -22,4 +22,14 @@ Core Components of the SIEM Lab Environment
 - SIEM Dashboards & Visualiations
 - Event Correlation & Detection Readiness 
 
-<img width="1619" height="1083" alt="Image" src="https://github.com/user-attachments/assets/a57eef94-d525-480c-86ba-93c16a05b7f0" />
+<img width="1633" height="779" alt="Image" src="https://github.com/user-attachments/assets/efbd1d0b-b7a9-40b4-88dc-20c5f3559d31" />
+
+This visualization shows a breakdown of logs ingesting by the Elastic Agent on the Kali Linux VM. The majority of the data (90%) comes from proccess events, indicating that command line activity and application execution were actively monitored. Additional logs include network and file telemetry, all validated and mapped correctly to the Elastic Common Schema (ECS), enabling accurate threat detection and rule matching. 
+
+<img width="1619" height="1083" alt="Image" src="https://github.com/user-attachments/assets/afe0118d-0cd9-456e-a252-d233b41ce575" />
+
+The data displays detailed logs captured by the Elastic Agent during attack simulation. The event show for, exec, and end actions executed  by the laxxy user on the Kali VM. These logs provide visibility into command level activity and serve as eveidence of potenital malicious behavior, essentialy for threat hunting and incident investigation. 
+
+<img width="1633" height="779" alt="Image" src="https://github.com/user-attachments/assets/ee1d8add-c3e7-40c1-a12e-6e5b1aafc569" />
+
+This dashboard presents an overview of endpoint activity collected by Elastic SIEM. It summarizes event counts, source/destination IPs, and the number of monitored hosts. This confirms that the SIEM is successfully receiving and correlating telemetry data from Kali Linux VM, enabling real-time visbility into host behaviro and potential threats.
