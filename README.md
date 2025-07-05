@@ -1,1 +1,10 @@
 # Home-SIEM-Lab
+
+# Objective
+
+This project showcases the deployment and configuration of a cloud-based Security Information and Event Management (SIEM) solution using the Elastic Stack within a home lab environment. The primary objective was to simulate real-world security operations center (SOC) workflows by integrating endpoint telemetry, ingesting system and network logs, and leveraging Elastic Agent for scalable data collection.
+
+A Kali Linux virtual machine was configured to simulate adversarial behavior using tools like Nmap, generating suspicious network activity and command-line executions. These events were forwarded to the Elastic SIEM for real-time log analysis, threat hunting, and event correlation.
+
+The project emphasizes key blue team skills such as log ingestion pipelines, alert rule development, dashboard visualization, and incident detection and response — reinforcing the principles of network monitoring, host-based intrusion detection (HIDS), and proactive threat identification in a modern SIEM ecosystem.
+
