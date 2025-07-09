@@ -1,4 +1,4 @@
-# Home-SIEM-Lab
+# Home SIEM Lab
 
 # Objective
 
